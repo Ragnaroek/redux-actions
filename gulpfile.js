@@ -11,6 +11,9 @@ var chalk = require('chalk');
 var srcs = ['src/*.js', 'src/**/*.js', '!src/**/*test.js'];
 var dist = './dist';
 
+//this task is mainly for travis-ci
+gulp.task('default', ['dist', 'test']);
+
 gulp.task('dist', function(cb) {
     return runSequence(
                 'clean',
