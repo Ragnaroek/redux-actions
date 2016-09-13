@@ -2,3 +2,9 @@
 
 # redux-actions
 a shorter way to define redux actions
+
+
+### TODO
+* migrate other functionality from project
+* migrate reducer combinators to this project
+* find a way to extend functionality of action creators

@@ -12,7 +12,11 @@
     "dist/index.js",
     "dist/index.js.flow"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "redux": "3.*",
+    "underscore": "1.*",
+    "immutable": "3.*"
+  },
   "devDependencies": {
     "babel-eslint": "6.1.2",
     "babel-loader": "6.2.5",
@@ -40,7 +44,9 @@
     "karma-coverage": "1.1.1",
     "karma-mocha": "1.1.1",
     "karma-mocha-reporter": "2.1.0",
+    "meta-constant": "0.2.0",
     "mocha": "3.0.2",
+    "q": "1.4.1",
     "run-sequence": "1.2.2",
     "watchify": "3.7.0"
   },
